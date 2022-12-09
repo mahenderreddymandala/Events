@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.heading2 {
+  color: #323f4b;
+}
+.registernow {
+  height: 100%;
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-style {
+  height: 40px;
+  width: 140px;
+  background-color: #0967d2;
+  color: #ffffff;
+  border: solid 0px transparent;
+  border-radius: 10px;
+}
+
+@media (max-width: 680px) {
+  .heading2 {
+    color: #323f4b;
+    heading: 15px;
+  }
+  .registernow {
+    height: 100%;
+    width: 100%;
+  }
+
+  .paragraph {
+    font-size: 10px;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-style {
+    height: 40px;
+    width: 140px;
+    background-color: #0967d2;
+    color: #ffffff;
+    border: solid 0px transparent;
+    border-radius: 10px;
+  }
+}
